@@ -1,0 +1,320 @@
+/*
+* @Author: HP
+* @Date:   2019-06-14 19:23:11
+* @Last Modified by:   HP
+* @Last Modified time: 2019-06-18 16:42:04
+*/
+*{
+	margin: 0px;
+	padding: 0px;
+}
+ul,li,ol{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+.header{
+	height: 186px;
+	width: 100%;
+}
+.wrapper{
+	width: 1200px;
+	height: 37px;
+	margin: 0 auto;
+
+}
+.m1{
+	height: 37px;
+	width: 720px;
+	margin-left: 526px;
+	line-height: 37px;
+}
+.m1 li{
+	float: left;
+}
+.m1 a:link{
+	color: #000000;
+}
+.n1{
+	margin-right: 44px;
+}
+.n2{
+	margin-right: 36px;
+}
+.n3{
+	margin-right: 30px;
+}
+.n4{
+	margin-right: 20px;
+}
+.n5{
+	margin-right: 20px;
+}
+.n6{
+	margin-right: 20px;
+}
+.clear{
+	clear: both;
+}
+.mid{
+	height: 200px;
+	width: 1200px;
+	margin: 0 auto;
+	background: red;
+	text-align: center;
+	line-height: 200px;
+	background: url("images/logo.png")no-repeat 0px center;
+	position: relative;
+}
+.mid input{
+	width: 543px;
+	height: 45px;
+	line-height: 45px;
+	text-align: center;
+	background: url("images/search.png") no-repeat 500px center;
+}
+.mig-img img{
+	position: absolute;
+	right: 0px;
+	top: 95px;
+	
+}
+.nav{
+	width: 1200px;
+	height: 40px;
+	margin: 0 auto;
+}
+.nav li{
+	float: left;
+	margin-right: 68px;
+	height: 30px;
+	line-height: 30px;
+}
+.nav li:first-child{
+	margin-left: 15px;
+	
+}
+.hp{
+	background: url("images/l.png")no-repeat  110px;
+	width: 125px;
+
+}
+.nav li:last-child{
+	margin-right:49px;
+}
+.nav a:link{
+	color: #050505;
+}
+.nav li:hover{
+	border-bottom: 5px #3aa747 solid;
+
+}
+.nav a:hover{
+	color: #3aa747;
+}
+.content{
+	height: 680px;
+	width: 100%;
+	text-align: center;
+	border-top: 5px #3aa747 solid;
+	margin-top: 86px;
+	position: relative;
+}
+.content img{
+	height: 680px;
+	width: 100%;
+	overflow: hidden;
+
+}
+
+.huadong{
+	height: 599px;
+	width: 68px;
+	background: #040b0a;
+	position: fixed;
+	right: 0px;
+	top: 279px;
+
+
+}
+.huadong li{
+	height: 121px;
+	width: 68px;
+	border-bottom: 1px #575c53 solid;
+	line-height: 68px;
+}
+.huadong img{
+	height: 35px;
+	width: 45px;
+	margin-top: 43px;
+}
+.main{
+	height: 65px;
+	width: 1200px;
+	margin: 0 auto;
+	line-height: 65px;
+}
+.nn{
+	float: left;
+}
+.mm{
+	float: right;
+}
+.main a:link{
+	color: #737373;
+}
+.kkk{
+	height: 137px;
+	width: 1200px;
+	margin: 0 auto;
+	text-align: center;
+
+}
+.tent{
+	height: 48px;
+	border: 1px solid;
+	text-align: center;
+	line-height: 48px;
+	
+}
+.tent li{
+	float: left;
+	margin-right: 100px;
+
+}
+.tent1{
+	float: right;
+	
+}
+.tent a:link{
+	color: #737373;
+
+
+}
+.tent a:hover{
+	color:#8fc794;
+}
+.a{
+	background-color: #e5e5e5;
+	width: 101px;
+	color: #000;
+	font-weight: bold;
+}
+.cneter{
+	height: 600px;
+	width: 1240px;
+	margin: 0 auto;
+	padding: 63px 0px 137px 5px;
+}
+.cneter li{
+	height: 295px;
+	width: 264px;
+	margin:0px 43px 25px 0px;
+	border: 1px #878787 solid;
+	line-height: 295px;
+	position: relative;
+	float: left;
+	text-align: center;
+
+}
+.cneter img{
+	height:214px;
+	width: 205px;
+	margin-top: 44px;
+
+}
+.mei img{
+	height: 295px;
+	width: 264px;
+	margin-top: 0px;
+
+}
+.k a{
+	color:#fff;
+	font-size: 14px;
+}
+.k p{
+	line-height: 28px;
+}
+.k:hover p:first-child{
+	margin-top: 100px;
+	line-height: 30px;
+	color: #fff;
+
+}
+.k:hover a{
+	font-size: 20px;
+}
+.k{
+	height:51px;
+	width: 264px;
+	position: absolute;
+	bottom: 0px;
+	background-color: #474744;
+	opacity: 0.9;
+	text-align: center;
+}
+
+.k:hover{
+	height: 295px;
+	width: 264px;
+}
+.list{
+	height: 98px;
+	width: 100%;
+	background: #f5f5f5;
+}
+.listk{
+	height: 98px;
+	width: 1200px;
+	margin: 0 auto;
+}
+.listk li{
+	height: 98px;
+	float: left;
+	margin-right: 10px;
+	position: relative;
+}	
+.d1{
+	margin-top: 32px;
+}
+.listk img{
+	float: left;
+	margin-right: 10px;
+	margin-top: 32px;
+}
+.gl1{
+	width: 267px;
+	background: url("images/little.png")no-repeat 245px 32px;
+}
+.gl2{
+	width: 286px;
+	background: url("images/little.png")no-repeat 253px 32px;
+
+}
+.gl3{
+	width: 202px;
+	background: url("images/little.png")no-repeat 199px 32px;
+
+}
+.gl4{
+	width: 235px;
+	margin-left: 76px;
+}
+.end{
+	height: 100px;
+	width: 100%;
+	background: #323232;
+	text-align: center;
+	color: #fff;
+	padding-top: 30px;
+	
+
+}
+.null{
+	height: 10px;
+}
+
+
+
